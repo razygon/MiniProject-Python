@@ -1,6 +1,7 @@
 # crawler_python
-here records some crawler scripts, for specific purpose or general purpose
-##crawlNGO.py
+here records some crawler scripts for some specific purpose, or some general tools I developed.
+
+## crawlNGO.py
 *usage*: python crawlNGO.py
 
 This is specifically used to crawl the NGO list from http://www.chinadevelopmentbrief.org.cn/directoryindex.html. The idea is quite simple, analyse how they generate url for each NGO, and the content with the html, it's very fast to get the solution.
@@ -13,3 +14,6 @@ However, I still encountered some problem when I program it.
 
 This one is for general purpose to deeply crawl the website you provided, with width deepth you set. For some unknown reason, the original spider.py can't run on my computer, so I did a little modification(search "by rg").
 *It's originally from* https://github.com/smartFlash/pySecurity/blob/master/zh-cn/0x6.md
+
+## scrapy scripts
+After toughing scrapy, I realized this framework is quite awesome, very straightforward usage, easy to pick up.
