@@ -18,7 +18,7 @@ This one is for general purpose to deeply crawl the website you provided, with w
 ## scrapy scripts
 Looking into scrapy, I realize this framework is quite awesome, very straightforward, easy to pick up. Recommend! 
 
-## totopredict
-TOTO is a Singapore lottory. Pick 6 numbers from 0-50, if you hit 4 or more you can win the money. Normally I only hit 2, but with the predictor I can often hit 3, need a little luck to win.
+## TOTOpredict
+TOTO is a Singapore lottery. Pick 6 numbers from 0-50, if you hit 4 or more you can win the money. Normally I only hit 2, but with the predictor I can often hit 3, need a little luck to win.
 I didn't play TOTO anymore, didn't win any money, but writting the predicot gave me many fun.
 *Code lost in my current computer need to check my old one, to be uploaded*
