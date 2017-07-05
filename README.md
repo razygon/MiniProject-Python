@@ -1,11 +1,11 @@
 # crawler_python
-here records some crawler scripts for some specific purpose, or some general tools I developed.
+Here records my mini python projects, most of them are crawlers.
 
 ## crawlNGO.py
 *usage*: python crawlNGO.py
 
-This is specifically used to crawl the NGO list from http://www.chinadevelopmentbrief.org.cn/directoryindex.html. The idea is quite simple, analyse how they generate url for each NGO, and the content with the html, it's very fast to get the solution.
-However, I still encountered some problem when I program it.
+This is specifically used to crawl for the NGO list from http://www.chinadevelopmentbrief.org.cn/directoryindex.html. The idea is simple, analyze URL pattern, it is very fast to get the solution.
+However, I still encountered some problems when I programed it.
 * urllib can't work well with bs, the type has conflict. Luckily, urllib2 works well. I guess urllib is good at crawling web links, urllib2 is good to crawling the content together with bs.
 * csv can't write unicode, at first I thought this is encode/decode problem. Finally I realized it's because csc can only write string.
 
@@ -16,4 +16,9 @@ This one is for general purpose to deeply crawl the website you provided, with w
 *It's originally from* https://github.com/smartFlash/pySecurity/blob/master/zh-cn/0x6.md
 
 ## scrapy scripts
-After toughing scrapy, I realized this framework is quite awesome, very straightforward usage, easy to pick up.
+Looking into scrapy, I realize this framework is quite awesome, very straightforward, easy to pick up. Recommend! 
+
+## totopredict
+TOTO is a Singapore lottory. Pick 6 numbers from 0-50, if you hit 4 or more you can win the money. Normally I only hit 2, but with the predictor I can often hit 3, need a little luck to win.
+I didn't play TOTO anymore, didn't win any money, but writting the predicot gave me many fun.
+*Code lost in my current computer need to check my old one, to be uploaded*
